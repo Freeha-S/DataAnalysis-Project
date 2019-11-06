@@ -33,7 +33,11 @@ Fundamentals of Data Analysis- Assessment 2019
 3. select Download zip
 
 ## Objective<a name="objective"></a>
-The aim of this project is to research
+The aim of this project is to research the tips data set. that include following tasks
+1. Create a jupyter notebook that use descriptive statistics and plots to describe the tips dataset.
+2. Discuss and analyse whether there is a relationship between the totalbill and tip amount
+3. Analyse the relationship between the variables within the dataset.
+
 
 ## Project Plan <a name="plan"></a>
 - **Research**<br>
