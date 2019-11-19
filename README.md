@@ -65,6 +65,7 @@ The aim of this project is to research the tips data set. that include following
 # Regression <a name="regression"></a>
 
 
+
 # Conclusion <a name="conclusion"></a>
 
 
