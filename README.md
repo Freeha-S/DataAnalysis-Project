@@ -58,8 +58,9 @@ The aim of this project is to research the tips data set. that include following
 
 # Background Information <a name="background"></a>
 In one restaurant, a food server recorded this data on all customers they served during an interval of two and a half months in early 1990. The restaurant, located in a suburban shopping mall, was part of a national chain and served a varied menu. In observance of local law, the restaurant offered to seat in a non-smoking section to patrons who requested it. Each record includes a day and time. sex column contain the sex of person paying for the meal source:https://www.kaggle.com/ranjeetjain3/seaborn-tips-dataset
-This dataset contain 244 rows and 7 columns of data
-columns are the variables and rows are the number of observations.
+
+This dataset contain 244 rows and 7 columns of data, columns are the variables and rows are the number of observations.
+
 __columns__
  - total_bill
  - tip
@@ -68,11 +69,13 @@ __columns__
  - day
  - time
  - size    
+ 
 categorical data column
  - sex 
  - smoker
  - day
  - time
+ 
  numerical data column
  - total_bill
  - tip
