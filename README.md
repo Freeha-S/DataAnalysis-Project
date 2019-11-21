@@ -62,13 +62,13 @@ In one restaurant, a food server recorded this data on all customers they served
 This dataset contain 244 rows and 7 columns of data, columns are the variables and rows are the number of observations.
 
 __columns__
- - total_bill
- - tip
- - sex 
- - smoker
- - day
- - time
- - size    
+ - total_bill: The amount of total bill
+ - tip : the amount of tip 
+ - sex : gender (Male,Female)
+ - smoker: value(Yes, No)
+ - day : days of week(Thur, Fri, Sat, Sun)
+ - time : time(Lunch, Dinner)
+ - size : number of people in group (1,2,3,4,5,6) 
  
 categorical data column
  - sex 
@@ -82,13 +82,15 @@ categorical data column
  - size    
 
 # Statistical Analysis <a name="statistics"></a>
-
+Statistical Analysis is a process of understanding how variables in a dataset relate to each other and how those relationships depend on other variables.
 
 # Regression <a name="regression"></a>
-
+The process of fitting a line to a set of data is called linear regression and the line of best fit is called regression line. The regression line provides a model of a linear association between two variablles.
 
 
 # Conclusion <a name="conclusion"></a>
 
 
 # References <a name="References"></a>
+1. Robin H. Lock, Patti Frazer Lock, Kari Lock Morgan, Eric F. Lock, Dennis F. Lock, 2016, Statistics: Unlocking the Power of Data
+2nd Edition, Wiley
