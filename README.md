@@ -58,7 +58,7 @@ The aim of this project is to research the tips data set. that include following
 
 # Background Information <a name="background"></a>
 
-![alt text] (images/tips.png "source: https://www.tripsavvy.com/how-to-calculate-a-restaurant-tip-1329250")
+<p align="center"><img src="images/tips.png"></p>
 source: https://www.tripsavvy.com/how-to-calculate-a-restaurant-tip-1329250
 
 **tips dataset**
