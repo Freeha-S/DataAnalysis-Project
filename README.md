@@ -21,19 +21,20 @@ Fundamentals of Data Analysis- Assessment 2019
 
 
 # Introduction <a name="introduction"></a>
- This repository contains all files and folders of my submissions for Fundamentals of Data Analysis- Assessment 2019.
- This assessment is for Module "Fundamentals of Data Analysis" at GMIT. This repository contains
-    1. Readme.md
-    2.DA-Assessment2019.ipynb
+This repository contains all files and folders of my submissions for Fundamentals of Data Analysis- Assessment 2019.
+
+This assessment is for Module "Fundamentals of Data Analysis" at GMIT.This repository contains
  
- 
- To download this repository 
+ 1. Readme.md
+ 2. DA-Assessment2019.ipynb
+  
+To download this repository 
 1. from https://github.com/Freeha-S/DataAnalysis-Project 
 2. click on [Clone and download]
 3. select Download zip
 
 ## Objective<a name="objective"></a>
-The aim of this project is to research the tips data set. that include following tasks
+The aim of this project is to research the tips dataset. that include following tasks
 1. Create a jupyter notebook that use descriptive statistics and plots to describe the tips dataset.
 2. Discuss and analyse whether there is a relationship between the totalbill and tip amount
 3. Analyse the relationship between the variables within the dataset.
@@ -47,7 +48,7 @@ The aim of this project is to research the tips data set. that include following
 - **Make a List of the Project Requirements**<br>
    Make a list of objective
 - **Time Management**<br>
-   
+   As I need some extra time for writing the description and analysis so i need to complete the code first and than add descriptions. It took so long in my previous project and documentation is not my strong point.
 
 ## Technologies Used <a name="technology"></a>
 - Jupyter notebook
@@ -58,11 +59,11 @@ The aim of this project is to research the tips data set. that include following
 
 # Background Information <a name="background"></a>
 
-<p align="center"><img src="images/tips.jpg"></p>
-source: https://www.tripsavvy.com/how-to-calculate-a-restaurant-tip-1329250
+<p align="center"><img src="images/tips.jpg"> source: https://www.tripsavvy.com/how-to-calculate-a-restaurant-tip-1329250</p>
+
 
 **tips dataset**
-Source: Bryant, P. G. and Smith, M. A. (1995), Practical Data Analysis: Case Studies in Business Statistics, Richard D. Irwin Publishing, Homewood, IL.
+Source of dataset: Bryant, P. G. and Smith, M. A. (1995), Practical Data Analysis: Case Studies in Business Statistics, Richard D. Irwin Publishing, Homewood, IL.
 
 In one restaurant, a food server recorded this data on all customers they served during an interval of two and a half months in early 1990. The restaurant, located in a suburban shopping mall, was part of a national chain and served a varied menu. In observance of local law, the restaurant offered to seat in a non-smoking section to patrons who requested it. Each record includes a day and time. sex column contain the sex of person paying for the meal source:https://www.kaggle.com/ranjeetjain3/seaborn-tips-dataset & 
 This dataset contain 244 rows and 7 columns of data, columns are the variables and rows are the number of observations.
@@ -75,28 +76,37 @@ __columns__
  - day : days of week(Thur, Fri, Sat, Sun)
  - time : time(Lunch, Dinner)
  - size : number of people in group (1,2,3,4,5,6) 
+| Categorical data column|
+| ------------- |
+| - sex         |
+| - smoker
+| - day
+| - time 
+| Numerical data column|
+|------------- |
+| - total_bill |
+| - tip        |
+| - size |
  
-categorical data column
- - sex 
- - smoker
- - day
- - time
- 
- numerical data column
- - total_bill
- - tip
- - size    
 
 # Statistical Analysis <a name="statistics"></a>
-Statistical Analysis is a process of understanding how variables in a dataset relate to each other and how those relationships depend on other variables.
+Statistical Analysis is a process of understanding how variables in a dataset relate to each other and how those relationships depend on other variables. Types of statistical analysis used for tips dataset.
+
+**Expolatory Data Analysis-** EDA is an analysis approach that focuses on identifying general patterns in the data and to find previously unknown relationships.
+**Descriptive statistic** is used to describe! It describes the basic features of information and shows or summarizes data in a rational way. Descriptive statistics is a study of quantitatively describing.
+**Predictive analytics** uses statistical algorithms and machine learning techniques to define the likelihood of future results, behavior, and trends based on both new and historical data.
 
 # Regression <a name="regression"></a>
-The process of fitting a line to a set of data is called linear regression and the line of best fit is called regression line. The regression line provides a model of a linear association between two variablles.
+In statistical modeling, regression analysis is a set of statistical processes for estimating the relationships between a dependent variable and one or more independent variables. The most common form of regression analysis is linear regression.
+
+The process of fitting a line to a set of data is called linear regression and the line of best fit is called regression line. The regression line provides a model of a linear association between two variablles. In tips dataset we are looking at the tip and total_bill relationship.
 
 
 # Conclusion <a name="conclusion"></a>
+There is a linear relationship between total_bill and tip. 
 
 
 # References <a name="References"></a>
 1. Robin H. Lock, Patti Frazer Lock, Kari Lock Morgan, Eric F. Lock, Dennis F. Lock, 2016, Statistics: Unlocking the Power of Data
 2nd Edition, Wiley
+2. The Key Types of Statistical Analysis available at http://intellspot.com/types-statistical-analysis/ accessed on 25/11/2019
