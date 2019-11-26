@@ -59,8 +59,8 @@ The aim of this project is to research the tips dataset. that include following 
 
 # Background Information <a name="background"></a>
 
-<p align="center"><img src="images/tips.jpg"> source: https://www.tripsavvy.com/how-to-calculate-a-restaurant-tip-1329250</p>
-
+<p align="center"><img src="images/tips.jpg"> </p>
+*source: https://www.tripsavvy.com/how-to-calculate-a-restaurant-tip-1329250*
 
 **tips dataset**
 Source of dataset: Bryant, P. G. and Smith, M. A. (1995), Practical Data Analysis: Case Studies in Business Statistics, Richard D. Irwin Publishing, Homewood, IL.
@@ -75,13 +75,14 @@ __columns__
  - smoker: value(Yes, No)
  - day : days of week(Thur, Fri, Sat, Sun)
  - time : time(Lunch, Dinner)
- - size : number of people in group (1,2,3,4,5,6) 
+ - size : number of people in group (1,2,3,4,5,6)
+ 
 | Categorical data column|
 | ------------- |
 | - sex         |
-| - smoker
-| - day
-| - time 
+| - smoker|
+| - day|
+| - time |
 | Numerical data column|
 |------------- |
 | - total_bill |
