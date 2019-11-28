@@ -114,7 +114,9 @@ The type of statistical analysis used for tips dataset in this notebook are.
 # Regression <a name="regression"></a>
 In statistical modeling, regression analysis is a set of statistical processes for estimating the relationships between a dependent variable and one or more independent variables. The most common form of regression analysis is linear regression.
 
-The process of fitting a line to a set of data is called linear regression and the line of best fit is called regression line. The regression line provides a model of a linear association between two variablles. In tips dataset we are looking at the tip and total_bill relationship.
+The process of fitting a line to a set of data is called linear regression and the line of best fit is called regression line. The regression line provides a model of a linear association between two variables.
+
+A linear regression line has an equation of the form Y = a + bX, where X is the explanatory variable and Y is the dependent variable. The slope of the line is b, and a is the intercept (the value of y when x = 0). In tips dataset we are looking at the tip and total_bill relationship, total_bill as an independent variable and tip as dependent varable.
 
 # Conclusion <a name="conclusion"></a>
 after analyising this data set it was clear that there is a linear relationship between total_bill and tip.And how scikit-learn package made it so easy to fit a linear regression model.
