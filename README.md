@@ -119,7 +119,9 @@ The process of fitting a line to a set of data is called linear regression and t
 A linear regression line has an equation of the form Y = a + bX, where X is the explanatory variable and Y is the dependent variable. The slope of the line is b, and a is the intercept (the value of y when x = 0). In tips dataset we are looking at the tip and total_bill relationship, total_bill as an independent variable and tip as dependent varable.
 
 # Conclusion <a name="conclusion"></a>
-after analyising this data set it was clear that there is a linear relationship between total_bill and tip. How scikit-learn package made it so easy to fit a linear regression model.
+after analyising this data set it was clear that there is a linear relationship between total_bill and tip.
+for fitting linear regression model i use on total bill as in dependent variable but other variable can be included in the model too.
+Scikit-learn package made it so easy to fit a linear regression model. This project enhance my knowledge of data analysis tools and techniques.
 
 
 # References <a name="References"></a>
