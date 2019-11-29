@@ -73,18 +73,18 @@ Source of dataset:
 
 Bryant, P. G. and Smith, M. A. (1995), Practical Data Analysis: Case Studies in Business Statistics, Richard D. Irwin Publishing, Homewood, IL.
 
-In one restaurant, a food server recorded this data on all customers they served during an interval of two and a half months in early 1990. The restaurant, located in a suburban shopping mall, was part of a national chain and served a varied menu. In observance of local law, the restaurant offered to seat in a non-smoking section to patrons who requested it. Each record includes a day and time. sex column contain the sex of person paying for the meal source:https://www.kaggle.com/ranjeetjain3/seaborn-tips-dataset
+In one restaurant, a food server recorded the data shown on all the customers they served during an interval of two and a half months in the year 1990. The restaurant, located in a suburban shopping mall, was part of a national chain and served a varied menu. In observance of local law, the restaurant offered to seat those who asked in a non-smoking section. Each record includes a day and time. The sex column contain the sex of the person paying for the meal source:https://www.kaggle.com/ranjeetjain3/seaborn-tips-dataset
 
 This dataset contain 244 rows and 7 columns of data, columns are the variables and rows are the number of observations.
 
 __Columns__
  - **total_bill:** The amount of total bill
- - **tip :** the amount of tip 
+ - **tip :** the amount of tip given
  - **sex :** gender (Male,Female)
- - **smoker:** value(Yes, No)
- - **day :** days of week(Thur, Fri, Sat, Sun)
+ - **smoker:** whether the customer is seated in the smoker area(Yes, No)
+ - **day :** days of the week(Thur, Fri, Sat, Sun)
  - **time :** time(Lunch, Dinner)
- - **size :** number of people in group (1,2,3,4,5,6)
+ - **size :** number of people in the group (1,2,3,4,5,6)
  
 | Categorical data column|
 | ------------- |
@@ -119,7 +119,7 @@ The process of fitting a line to a set of data is called linear regression and t
 A linear regression line has an equation of the form Y = a + bX, where X is the explanatory variable and Y is the dependent variable. The slope of the line is b, and a is the intercept (the value of y when x = 0). In tips dataset we are looking at the tip and total_bill relationship, total_bill as an independent variable and tip as dependent varable.
 
 # Conclusion <a name="conclusion"></a>
-after analyising this data set it was clear that there is a linear relationship between total_bill and tip.And how scikit-learn package made it so easy to fit a linear regression model.
+after analyising this data set it was clear that there is a linear relationship between total_bill and tip. How scikit-learn package made it so easy to fit a linear regression model.
 
 
 # References <a name="References"></a>
